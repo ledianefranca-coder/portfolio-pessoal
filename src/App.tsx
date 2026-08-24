@@ -4,7 +4,6 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { ProjectsSection } from './components/ProjectsSection';
-import { SkillsSection } from './components/SkillsSection';
 import { ContactSection } from './components/ContactSection';
 import { CurriculumModal } from './components/CurriculumModal';
 import { FloatingDock } from './components/FloatingDock';
@@ -19,7 +18,6 @@ export default function App() {
     setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
   };
 
-  // Synchronize document background class with theme
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
@@ -30,22 +28,17 @@ export default function App() {
     }
   }, [theme]);
 
-  // Section observer to update navigation indicator on scroll
   useEffect(() => {
-    const sections: NavigationSection[] = ['home', 'about', 'projects', 'skills', 'contact'];
-    
+    const sections: NavigationSection[] = ['home', 'about', 'projects', 'contact'];
+
     const handleScrollObserver = () => {
       const scrollPosition = window.scrollY + 250;
-
       for (let i = sections.length - 1; i >= 0; i--) {
         const sectionId = sections[i];
         const element = document.getElementById(sectionId);
-        if (element) {
-          const top = element.offsetTop;
-          if (scrollPosition >= top) {
-            setActiveSection(sectionId);
-            break;
-          }
+        if (element && scrollPosition >= element.offsetTop) {
+          setActiveSection(sectionId);
+          break;
         }
       }
     };
@@ -57,14 +50,11 @@ export default function App() {
   const handleNavigate = (section: NavigationSection) => {
     setActiveSection(section);
     const element = document.getElementById(section);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    if (element) element.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <div className="min-h-screen flex flex-col font-sans transition-colors duration-300 selection:bg-purple-500 selection:text-white">
-      {/* Fixed Top Header */}
       <Header
         activeSection={activeSection}
         setActiveSection={setActiveSection}
@@ -73,20 +63,13 @@ export default function App() {
         onOpenCV={() => setIsCVOpen(true)}
       />
 
-      {/* Main Content Flow */}
       <main className="flex-1">
-        <Hero
-          theme={theme}
-          onNavigate={handleNavigate}
-          onOpenCV={() => setIsCVOpen(true)}
-        />
+        <Hero theme={theme} onNavigate={handleNavigate} onOpenCV={() => setIsCVOpen(true)} />
         <AboutSection theme={theme} />
         <ProjectsSection theme={theme} />
-        <SkillsSection theme={theme} />
         <ContactSection theme={theme} />
       </main>
 
-      {/* Awwwards-Inspired Floating Capsule Bottom Dock (Início | Sobre | Projetos | Habilidades | Contato) */}
       <FloatingDock
         activeSection={activeSection}
         onNavigate={handleNavigate}
@@ -94,10 +77,8 @@ export default function App() {
         onOpenCV={() => setIsCVOpen(true)}
       />
 
-      {/* Footer */}
       <Footer theme={theme} onNavigate={handleNavigate} />
 
-      {/* Curriculum / Qualifications Summary Modal */}
       <CurriculumModal
         isOpen={isCVOpen}
         onClose={() => setIsCVOpen(false)}
