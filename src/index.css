@@ -25,6 +25,21 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  scroll-margin-top: 88px;
+}
+
+img {
+  image-rendering: auto;
+  backface-visibility: hidden;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #a855f7;
+  outline-offset: 3px;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
