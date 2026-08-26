@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
   // Manifesto de identidade
   manifesto: 'Acredito que o verdadeiro crescimento acontece quando unimos rigor técnico, sensibilidade estética e organização consciente. Como na natureza, cada projeto passa pelas etapas de germinar, cultivar, brotar e florescer.',
   
-  bioEditorial: `Sou uma profissional dedicada, organizada e comprometida com a evolução contínua. Minha trajetória se constrói na intersecção entre tecnologia, criação de conteúdo digital, metodologias de organização de rotinas e sensibilidade botânica. Ao longo dos anos, venho desenvolvendo projetos digitais completos — desde aplicações web responsivas publicadas na Vercel até produções audiovisuais, design instrucional e consultorias de organização de ambientes. Acredito que diferentes saberes se integram para formar uma atuação profissional autoral, ética, acolhedora e focada na mais alta qualidade de entrega.`,
+  bioEditorial: `Sou uma profissional dedicada, organizada e comprometida com a evolução contínua. Minha trajetória se constrói na intersecção entre tecnologia, criação de conteúdo digital e sensibilidade botânica. Ao longo dos anos, venho desenvolvendo projetos digitais completos — desde aplicações web responsivas publicadas na Vercel até produções audiovisuais e design instrucional. Acredito que diferentes saberes se integram para formar uma atuação profissional autoral, ética, acolhedora e focada na mais alta qualidade de entrega.`,
   
   growthStages: [
     {
@@ -28,7 +28,7 @@ export const PERSONAL_INFO = {
       phase: '02',
       title: 'Cultivo',
       subtitle: 'Método & Organização',
-      desc: 'Desenvolvimento de métodos de personal organizer, gestão do tempo, disciplina diária e harmonia de espaços.',
+      desc: 'Desenvolvimento de métodos de trabalho, gestão do tempo, disciplina diária e organização de processos.',
       icon: 'Sun'
     },
     {
@@ -162,40 +162,6 @@ export const PROJECTS: Project[] = [
     featuredQuote: '“Cada palavra e cada imagem são sementes plantadas no coração de quem assiste.”'
   },
   {
-    id: 'metodo-organizacao',
-    number: '04',
-    title: 'Método & Harmonia de Ambientes',
-    subtitle: 'Personal Organizer, Rotinas & Otimização de Espaços',
-    category: 'Organização',
-    year: '2024',
-    description: 'Sistematização de processos de organização residencial, planejamento de rotinas funcionais e descarte consciente para bem-estar familiar.',
-    
-    context: 'Espaços desordenados geram sobrecarga cognitiva e atritos no cotidiano. O projeto desenvolveu uma metodologia prática de organização estruturada em etapas lógicas.',
-    challenge: 'Criar um método aplicável que não apenas organizasse o espaço momentaneamente, mas que fosse sustentável e fácil de manter pelos próprios moradores.',
-    process: [
-      'Diagnóstico inicial de pontos críticos de desordem e hábitos de circulação',
-      'Etapas de categorização, triagem criteriosa e descarte consciente',
-      'Definição de layout funcional, etiquetagem e setorização de itens',
-      'Elaboração de manual de manutenção de rotina e cronograma de cuidados'
-    ],
-    solution: 'Um conjunto de diretrizes de Personal Organizer com protocolos passo a passo, checklists digitais e diretrizes de ergonomia e harmonia espacial.',
-    result: 'Transformação concreta de ambientes, redução de desperdício de tempo e aumento comprovado de tranquilidade na rotina doméstica.',
-    
-    deliverables: [
-      'Manual de triagem e categorização de ambientes',
-      'Cronogramas semanais e mensais de manutenção de rotina',
-      'Diretrizes de layout e aproveitamento inteligente de espaços'
-    ],
-    tags: ['Personal Organizer', 'Planejamento', 'Gestão do Tempo', 'Organização de Ambientes'],
-    primaryLink: '#contact',
-    status: 'Publicado',
-    accentColor: '#e879f9',
-    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=2000&q=95',
-    aspectClass: 'aspect-[16/10]',
-    colSpanClass: 'lg:col-span-7',
-    featuredQuote: '“Organizar o espaço ao redor é também organizar a mente e abrir espaço para o que realmente importa.”'
-  },
-  {
     id: 'jardinagem-biofilia',
     number: '05',
     title: 'Cultivo Botânico & Paisagismo Sensorial',
@@ -289,14 +255,6 @@ export const TECHNICAL_SKILLS: TechnicalSkillItem[] = [
     tools: ['Canva Pro', 'CapCut', 'Softwares de Edição', 'Tratamento de Cor', 'Áudio'],
     proficiency: 'Avançado',
     iconName: 'Clapperboard'
-  },
-  {
-    name: 'Organização e Planejamento',
-    shortDesc: 'Personal Organizer, gestão de tempo, fluxos de rotina e otimização de ambientes.',
-    details: 'Métodos estruturados de categorização de espaços físicos e virtuais, planejamento de cronogramas diários/semanais e descarte consciente para redução de atritos e estresse.',
-    tools: ['Personal Organizer', 'Checklists', 'Sistemas de Rotina', 'Gestão de Espaços'],
-    proficiency: 'Especializado',
-    iconName: 'LayoutGrid'
   },
   {
     name: 'Desenvolvimento de Projetos',
