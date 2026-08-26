@@ -28,7 +28,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ theme }) => {
             <article key={project.id} onClick={() => setActiveProject(project)} className="group cursor-pointer">
               <div className={`overflow-hidden rounded-[1.75rem] border transition-all duration-500 ${isDark ? 'bg-[#1b1227] border-[#3b2654] hover:border-[#c084fc]/60' : 'bg-white border-[#dec7ec] hover:border-[#7e22ce]/50'}`}>
                 <div className="relative aspect-[16/10] overflow-hidden bg-current/5">
-                  <img src={project.imageUrl} alt={project.title} loading="lazy" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.035]" />
+                  <img src={project.imageUrl} alt={project.title} loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.035]" />
                 </div>
                 <div className="p-5 sm:p-6 flex items-end justify-between gap-4">
                   <div>
