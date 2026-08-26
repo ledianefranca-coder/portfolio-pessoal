@@ -4,7 +4,6 @@ import { PERSONAL_INFO, PROJECTS, SOCIAL_LINKS } from '../data/portfolioData';
 import { 
   ArrowUpRight, 
   Sparkles, 
-  Sprout, 
   Globe, 
   FolderGit2, 
   Layers, 
@@ -257,24 +256,6 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, theme, onOpenCV }) => {
                 </div>
               </div>
 
-              {/* Floating Botanical / Organic Accent Badge */}
-              <div 
-                className={`absolute -bottom-5 -left-5 p-3.5 rounded-2xl border shadow-xl backdrop-blur-md flex items-center gap-3 transition-transform duration-500 hover:scale-105 hidden sm:flex ${
-                  isDark 
-                    ? 'bg-[#1e132c]/95 border-[#6b21a8]/50 text-[#f3e8ff]' 
-                    : 'bg-[#ffffff]/95 border-[#d8b4fe] text-[#281838]'
-                }`}
-              >
-                <div className="w-8 h-8 rounded-xl bg-[#10b981]/20 flex items-center justify-center text-[#10b981]">
-                  <Sprout className="w-4 h-4" />
-                </div>
-                <div>
-                  <span className="text-[10px] font-mono uppercase block text-[#7e22ce] dark:text-[#d8b4fe] font-bold">
-                    Conceito &amp; Essência
-                  </span>
-                  <span className="text-xs font-semibold">Florescer &amp; Evolução Contínua</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
