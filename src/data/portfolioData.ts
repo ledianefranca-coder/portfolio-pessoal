@@ -79,10 +79,10 @@ export const PROJECTS: Project[] = [
     tags: ['Tecnologia', 'Vercel', 'Web App', 'React', 'Design Minimalista'],
     primaryLink: 'https://palavra-di-ria.vercel.app',
     secondaryLink: 'https://vercel.com/lediane/palavra-di-ria',
-    githubLink: 'https://github.com/lediane/palavra-di-ria',
+    githubLink: 'https://github.com/ledianefranca-coder/palavra-di-ria',
     status: 'Em Destaque',
     accentColor: '#9333ea',
-    imageUrl: 'https://images.unsplash.com/photo-1507842229451-79b1be886a27?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=2000&q=95',
     aspectClass: 'aspect-[16/10]',
     colSpanClass: 'lg:col-span-8',
     featuredQuote: '“Um refúgio digital diário onde a tecnologia serve ao cultivo da paz interior.”'
@@ -116,10 +116,10 @@ export const PROJECTS: Project[] = [
     tags: ['Design Digital', 'Vercel', 'Bem-Estar', 'UI/UX', 'Florescimento'],
     primaryLink: 'https://florescer-di-rio.vercel.app',
     secondaryLink: 'https://vercel.com/lediane/florescer-di-rio',
-    githubLink: 'https://github.com/lediane/florescer-di-rio',
+    githubLink: 'https://github.com/ledianefranca-coder/Florescer-Di-rio',
     status: 'Em Destaque',
     accentColor: '#ec4899',
-    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2000&q=95',
     aspectClass: 'aspect-[4/5]',
     colSpanClass: 'lg:col-span-4',
     featuredQuote: '“Cultivar a si mesma diariamente é o primeiro passo para florescer em qualquer ambiente.”'
@@ -153,10 +153,10 @@ export const PROJECTS: Project[] = [
     tags: ['Conteúdo Digital', 'Edição de Vídeo', 'Redes Sociais', 'YouTube', 'TikTok'],
     primaryLink: 'https://sementes-de-plenitude.vercel.app/',
     secondaryLink: 'https://www.youtube.com/@ledianefranca',
-    githubLink: 'https://github.com/lediane/sementes-de-plenitude',
+    githubLink: 'https://github.com/ledianefranca-coder/sementes-de-plenitude',
     status: 'Em Destaque',
     accentColor: '#c084fc',
-    imageUrl: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1000&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=2000&q=95',
     aspectClass: 'aspect-[4/5]',
     colSpanClass: 'lg:col-span-5',
     featuredQuote: '“Cada palavra e cada imagem são sementes plantadas no coração de quem assiste.”'
@@ -187,10 +187,10 @@ export const PROJECTS: Project[] = [
       'Diretrizes de layout e aproveitamento inteligente de espaços'
     ],
     tags: ['Personal Organizer', 'Planejamento', 'Gestão do Tempo', 'Organização de Ambientes'],
-    primaryLink: '#contato',
+    primaryLink: '#contact',
     status: 'Publicado',
     accentColor: '#e879f9',
-    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=2000&q=95',
     aspectClass: 'aspect-[16/10]',
     colSpanClass: 'lg:col-span-7',
     featuredQuote: '“Organizar o espaço ao redor é também organizar a mente e abrir espaço para o que realmente importa.”'
@@ -221,10 +221,10 @@ export const PROJECTS: Project[] = [
       'Produção de conteúdo educativo em redes sociais sobre botânica'
     ],
     tags: ['Jardinagem', 'Paisagismo', 'Biofilia', 'Botânica', 'Natureza'],
-    primaryLink: '#contato',
+    primaryLink: '#contact',
     status: 'Publicado',
     accentColor: '#10b981',
-    imageUrl: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=1000&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=2000&q=95',
     aspectClass: 'aspect-[4/5]',
     colSpanClass: 'lg:col-span-6',
     featuredQuote: '“Aprender com o tempo das plantas é aprender sobre paciência, cuidado e florescimento.”'
@@ -255,10 +255,10 @@ export const PROJECTS: Project[] = [
       'Sistematização de estudos em Gestão de RH e Psicanálise'
     ],
     tags: ['Design Instrucional', 'Acadêmico', 'Recursos Humanos', 'Pesquisa', 'Educação'],
-    primaryLink: '#contato',
+    primaryLink: '#contact',
     status: 'Publicado',
     accentColor: '#f59e0b',
-    imageUrl: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=2000&q=95',
     aspectClass: 'aspect-[16/10]',
     colSpanClass: 'lg:col-span-6',
     featuredQuote: '“Transformar conhecimento complexo em conteúdo acessível e transformador.”'
@@ -413,8 +413,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: 'github',
     name: 'GitHub',
-    handle: 'github.com/lediane',
-    url: 'https://github.com/lediane',
+    handle: 'github.com/ledianefranca-coder',
+    url: 'https://github.com/ledianefranca-coder',
     icon: 'Github',
     description: 'Repositórios de código, projetos web, deploy na Vercel e experimentos tecnológicos.',
     primary: true

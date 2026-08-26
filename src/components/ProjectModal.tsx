@@ -106,7 +106,8 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
           <img
             src={project.imageUrl}
             alt={project.title}
-            className="w-full h-full object-cover"
+            decoding="async"
+            className="w-full h-auto max-h-96 object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4">
             <span className="text-xs font-mono text-white/90 uppercase tracking-wider bg-black/40 px-3 py-1 rounded-full backdrop-blur-xs">

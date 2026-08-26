@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { ProjectsSection } from './components/ProjectsSection';
+import { SkillsSection } from './components/SkillsSection';
 import { ContactSection } from './components/ContactSection';
 import { CurriculumModal } from './components/CurriculumModal';
 import { FloatingDock } from './components/FloatingDock';
@@ -67,6 +68,7 @@ export default function App() {
         <Hero theme={theme} onNavigate={handleNavigate} onOpenCV={() => setIsCVOpen(true)} />
         <AboutSection theme={theme} />
         <ProjectsSection theme={theme} />
+        <SkillsSection theme={theme} />
         <ContactSection theme={theme} />
       </main>
 

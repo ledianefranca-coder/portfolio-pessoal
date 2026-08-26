@@ -152,7 +152,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, theme, onOpenCV }) => {
               </a>
               <span>•</span>
               <a 
-                href="https://github.com/lediane" 
+                href="https://github.com/ledianefranca-coder"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-[#a855f7] transition-colors underline"
@@ -199,10 +199,11 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, theme, onOpenCV }) => {
                 {/* Big Visual Imagery Collage Frame */}
                 <div className="relative rounded-2xl overflow-hidden mb-4 border border-current/10 group-hover:shadow-lg transition-all duration-500">
                   <img
-                    src="https://images.unsplash.com/photo-1507842229451-79b1be886a27?auto=format&fit=crop&w=900&q=80"
+                    src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=95"
                     alt="Palavra Diária - Aplicação Web"
                     className="w-full h-52 sm:h-56 object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-4">
                     <div className="text-white">

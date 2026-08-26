@@ -23,7 +23,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ theme }) => {
 
           <div className="lg:col-span-5">
             <div className={`relative overflow-hidden rounded-[2rem] border ${isDark ? 'border-[#3b2752] bg-[#1b1226]' : 'border-[#dec8ed] bg-white'}`}>
-              <img src="/assets/lediane-franca-portfolio.jpg" alt="Lediane França" className="w-full aspect-[4/5] object-cover object-[50%_36%] transition-transform duration-700 hover:scale-[1.02]" />
+              <img src="/assets/lediane-franca-portfolio.jpg" alt="Lediane França" decoding="async" fetchPriority="high" className="w-full aspect-[4/5] object-cover object-[50%_36%] transition-transform duration-700 hover:scale-[1.02]" />
             </div>
             <div className="flex items-center gap-2 mt-4 text-xs text-current/55"><Sprout className="w-4 h-4" /><span>Florescer: aprender, criar e evoluir.</span></div>
           </div>
